@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Login</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="login-css-bootsrtap.css" type="text/css">
+<style>
+    body{
+    background: url("https://images.hdqwalls.com/wallpapers/minimal-landscape-4k-ro.jpg");
+    background-size:cover;
+    font-family: sans-serif;
+}
+.jumbotron{
+    width:20%;
+    height:440px;
+    opacity:0.8;
+}
+.form-group{
+    font-size: 18px;
+    margin-left: 45px;
+    color: black;
+
+}
+.form-group input[type="text"],input[type="password"]
+{
+    font-size: 14px;
+}
+.form-group input[type="text"],input[type="email"]
+{
+    font-size: 14px;
+}
+.form-group input{
+    width:70%;
+    margin-bottom:10px;
+}
+.form-check{
+font-size: 18px;
+}
+.btn{
+    margin-left:35%;
+    width:100px;
+    font-weight: 700;
+    background-color: darkgreen;
+}
+h2{
+        font-weight: 700;
+        font-family: 'Piedra';
+        margin-left: 75px; 
+        color: black;
+}
+.jumbotron{
+    margin-left: 40%;
+    margin-top:9%;
+}
+
+
+    </style>
+<body>
+    <form >
+        <div class="jumbotron">
+            <h2>Login Here</h2>
+            <br>
+        <div class="form-group ">
+            <label for="email">Email:</label>
+            <br>
+            <i class="fas fa-envelope"></i>
+            <input type="email"  placeholder="Enter your email address" id="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <br>
+            <i class="fas fa-lock"></i> 
+            <input type="password" placeholder="Enter your password" id="password">
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-input"> <input type="checkbox" class="form-check-input" style="width:12px;height:12px;">
+            Remember me</label>
+        </div>
+        <buttom class="btn btn-success" type="submit">
+            Login
+        </buttom>
+    </div>
+    </form>
+</body>
+</html>
